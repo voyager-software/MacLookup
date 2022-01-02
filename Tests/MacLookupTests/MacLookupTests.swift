@@ -20,4 +20,13 @@ final class MacLookupTests: XCTestCase
         let mac = MacLookup.shared.find(model: "iMac21,2")
         XCTAssertEqual(mac?.name, "iMac (24-inch, M1, 2021)")
     }
+    
+    #if os(macOS) || targetEnvironment(macCatalyst)
+    func testGetModel() throws
+    {
+        let model = MacLookup.shared.getModel()
+        XCTAssertNotNil(model)
+        XCTAssertTrue((model ?? "").contains("Mac"))
+    }
+    #endif
 }

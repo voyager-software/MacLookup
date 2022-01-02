@@ -5,15 +5,36 @@
 
 import Foundation
 
-class MacLookup
+#if os(macOS) || targetEnvironment(macCatalyst)
+import IOKit
+#endif
+
+public class MacLookup
 {
     private init() {}
     
-    static var shared = MacLookup()
+    public static var shared = MacLookup()
     
     private var macs: [Mac] = []
     
-    func find(model: String) -> Mac?
+    
+    #if os(macOS) || targetEnvironment(macCatalyst)
+    public func getModel() -> String?
+    {
+        let service = IOServiceGetMatchingService(kIOMasterPortDefault, IOServiceMatching("IOPlatformExpertDevice"))
+        defer { IOObjectRelease(service) }
+        
+        if let modelData = IORegistryEntryCreateCFProperty(service, "model" as CFString, kCFAllocatorDefault, 0).takeRetainedValue() as? Data,
+           let cString = modelData.withUnsafeBytes({ $0.baseAddress?.assumingMemoryBound(to: UInt8.self) })
+        {
+            return String(cString: cString)
+        }
+        
+        return nil
+    }
+    #endif
+    
+    public func find(model: String) -> Mac?
     {
         self.loadMacs()
         return self.macs.first(where: { $0.models.contains(model) })

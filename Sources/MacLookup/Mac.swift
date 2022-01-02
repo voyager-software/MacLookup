@@ -5,7 +5,7 @@
 
 import Foundation
 
-struct Mac: Decodable
+public struct Mac: Decodable
 {
     let name: String
     let colors: [String]
