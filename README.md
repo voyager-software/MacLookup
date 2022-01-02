@@ -1,3 +1,3 @@
 # MacModelInfo
 
-A description of this package.
+Lookup of all Mac model names.
