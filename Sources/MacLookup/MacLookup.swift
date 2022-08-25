@@ -32,7 +32,18 @@ public class MacLookup
         
         return nil
     }
+    
+    
     #endif
+    
+    func cpu() -> String {
+        var size = 0
+        sysctlbyname("machdep.cpu.brand_string", nil, &size, nil, 0)
+        var machine = [CChar](repeating: 0,  count: Int(size))
+        sysctlbyname("machdep.cpu.brand_string", &machine, &size, nil, 0)
+        return String(cString: machine)
+        
+    }
     
     public func find(model: String) -> Mac?
     {

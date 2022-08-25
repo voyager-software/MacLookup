@@ -28,5 +28,14 @@ final class MacLookupTests: XCTestCase
         XCTAssertNotNil(model)
         XCTAssertTrue((model ?? "").contains("Mac"))
     }
+    
+   
+    
     #endif
+    
+    func testcpu() throws
+    {
+        let x = MacLookup.shared.cpu()
+        print(x)
+    }
 }
