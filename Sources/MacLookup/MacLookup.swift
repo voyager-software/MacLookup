@@ -21,7 +21,8 @@ public class MacLookup
     #if os(macOS) || targetEnvironment(macCatalyst)
     public func getModel() -> String?
     {
-        let service = IOServiceGetMatchingService(kIOMasterPortDefault, IOServiceMatching("IOPlatformExpertDevice"))
+        let port: mach_port_t = 0
+        let service = IOServiceGetMatchingService(port, IOServiceMatching("IOPlatformExpertDevice"))
         defer { IOObjectRelease(service) }
         
         if let modelData = IORegistryEntryCreateCFProperty(service, "model" as CFString, kCFAllocatorDefault, 0).takeRetainedValue() as? Data,
