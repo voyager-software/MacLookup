@@ -7,6 +7,8 @@ import Foundation
 
 public struct Mac: Decodable
 {
+    public let kind: Kind
+    public let variant: String
     public let name: String
     public let colors: [String]
     public let models: [String]

@@ -35,6 +35,12 @@ public class MacLookup
     }
     #endif
     
+    public func findAll() -> [Mac]
+    {
+        self.loadMacs()
+        return self.macs
+    }
+    
     public func find(model: String) -> Mac?
     {
         self.loadMacs()
