@@ -60,4 +60,11 @@ final class MacLookupTests: XCTestCase
         XCTAssertTrue((model ?? "").contains("Mac"))
     }
     #endif
+    
+    func testMbp13m2_2022() throws
+    {
+        let mbp13m2_2022 = MacLookup.shared.find(model: "Mac14,7")
+        
+        XCTAssertEqual(mbp13m2_2022?.name, "MacBook Pro (13-inch, M2, 2022)")
+    }
 }
