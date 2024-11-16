@@ -5,8 +5,7 @@
 
 import Foundation
 
-public struct Mac: Decodable
-{
+public struct Mac: Decodable, Sendable {
     public let kind: Kind
     public let variant: String
     public let name: String

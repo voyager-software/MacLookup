@@ -1,36 +1,30 @@
 import XCTest
 @testable import MacLookup
 
-final class MacLookupTests: XCTestCase
-{
-    func testNilMac() throws
-    {
-        let mac = MacLookup.shared.find(model: "INVALID_MODEL")
+final class MacLookupTests: XCTestCase {
+    func testNilMac() async throws {
+        let mac = await MacLookup.shared.find(model: "INVALID_MODEL")
         XCTAssertNil(mac)
     }
-    
-    func testNotNilMac() throws
-    {
-        let mac = MacLookup.shared.find(model: "iMac21,2")
+
+    func testNotNilMac() async throws {
+        let mac = await MacLookup.shared.find(model: "iMac21,2")
         XCTAssertNotNil(mac)
     }
-    
-    func testMacName() throws
-    {
-        let mac = MacLookup.shared.find(model: "iMac21,2")
+
+    func testMacName() async throws {
+        let mac = await MacLookup.shared.find(model: "iMac21,2")
         XCTAssertEqual(mac?.name, "iMac (24-inch, M1, 2021)")
     }
-    
-    func testFindAll() throws
-    {
-        let macs = MacLookup.shared.findAll()
+
+    func testFindAll() async throws {
+        let macs = await MacLookup.shared.findAll()
         XCTAssertEqual(macs.count, 117)
     }
-    
-    func testCounts() throws
-    {
-        let macs = MacLookup.shared.findAll()
-        
+
+    func testCounts() async throws {
+        let macs = await MacLookup.shared.findAll()
+
         let unknowns = macs.filter { $0.kind == .unknown }
         let imacs = macs.filter { $0.kind == .iMac }
         let imacpros = macs.filter { $0.kind == .iMacPro }
@@ -51,20 +45,18 @@ final class MacLookupTests: XCTestCase
         XCTAssertEqual(macpros.count, 5)
         XCTAssertEqual(servers.count, 2)
     }
-    
+
     #if os(macOS) || targetEnvironment(macCatalyst)
-    func testGetModel() throws
-    {
-        let model = MacLookup.shared.getModel()
-        XCTAssertNotNil(model)
-        XCTAssertTrue((model ?? "").contains("Mac"))
-    }
+        func testGetModel() async throws {
+            let model = await MacLookup.shared.getModel()
+            XCTAssertNotNil(model)
+            XCTAssertTrue((model ?? "").contains("Mac"))
+        }
     #endif
-    
-    func testMbp13m2_2022() throws
-    {
-        let mbp13m2_2022 = MacLookup.shared.find(model: "Mac14,7")
-        
+
+    func testMbp13m2_2022() async throws {
+        let mbp13m2_2022 = await MacLookup.shared.find(model: "Mac14,7")
+
         XCTAssertEqual(mbp13m2_2022?.name, "MacBook Pro (13-inch, M2, 2022)")
     }
 }
