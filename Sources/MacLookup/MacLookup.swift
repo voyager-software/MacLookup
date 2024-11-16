@@ -9,7 +9,7 @@ import Foundation
     import IOKit
 #endif
 
-public actor MacLookup {
+public final class MacLookup: @unchecked Sendable {
     // MARK: Lifecycle
 
     private init() {}
