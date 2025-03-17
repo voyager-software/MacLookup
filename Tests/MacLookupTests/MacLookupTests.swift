@@ -19,7 +19,7 @@ final class MacLookupTests: XCTestCase {
 
     func testFindAll() async throws {
         let macs = MacLookup.shared.findAll()
-        XCTAssertEqual(macs.count, 117)
+        XCTAssertEqual(macs.count, 146)
     }
 
     func testCounts() async throws {
@@ -34,16 +34,18 @@ final class MacLookupTests: XCTestCase {
         let macminis = macs.filter { $0.kind == .macMini }
         let macpros = macs.filter { $0.kind == .macPro }
         let servers = macs.filter { $0.kind == .macProServer }
+        let studios = macs.filter { $0.kind == .macStudio }
 
         XCTAssertEqual(unknowns.count, 0)
-        XCTAssertEqual(imacs.count, 25)
+        XCTAssertEqual(imacs.count, 32)
         XCTAssertEqual(imacpros.count, 1)
         XCTAssertEqual(macbooks.count, 7)
-        XCTAssertEqual(macbookairs.count, 19)
-        XCTAssertEqual(macbookpros.count, 49)
-        XCTAssertEqual(macminis.count, 9)
-        XCTAssertEqual(macpros.count, 5)
+        XCTAssertEqual(macbookairs.count, 24)
+        XCTAssertEqual(macbookpros.count, 55)
+        XCTAssertEqual(macminis.count, 11)
+        XCTAssertEqual(macpros.count, 8)
         XCTAssertEqual(servers.count, 2)
+        XCTAssertEqual(studios.count, 6)
     }
 
     #if os(macOS) || targetEnvironment(macCatalyst)

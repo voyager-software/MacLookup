@@ -17,7 +17,8 @@ public enum Kind: String, Decodable, Sendable {
         macBookPro = "MacBook Pro",
         macMini = "Mac mini",
         macPro = "Mac Pro",
-        macProServer = "Mac Pro Server"
+        macProServer = "Mac Pro Server",
+        macStudio = "Mac Studio"
 
     // MARK: Public
 

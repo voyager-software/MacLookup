@@ -12,4 +12,6 @@ public struct Mac: Decodable, Sendable {
     public let colors: [String]
     public let models: [String]
     public let parts: [String]
+    public let notes: [String]
+    public let newestOS: String?
 }
