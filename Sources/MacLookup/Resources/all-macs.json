@@ -1565,10 +1565,10 @@
     ]
   },
   {
-    "name" : "MacBook Pro (14-inch, M5) in Silver and Space Black.",
+    "name" : "MacBook Pro (14-inch, M5)",
     "newestOS" : "macOS Tahoe 26",
     "kind" : "MacBook Pro",
-    "variant" : "14-inch, M5) in Silver and Space Black",
+    "variant" : "14-inch, M5",
     "colors" : [
       "Silver",
       "Space Black"
