@@ -1,12 +1,12 @@
 [
   {
     "colors" : [
-      "Silver",
-      "Pink",
       "Blue",
       "Green",
-      "Purple",
       "Orange",
+      "Pink",
+      "Purple",
+      "Silver",
       "Yellow"
     ],
     "kind" : "iMac",
@@ -68,12 +68,12 @@
   },
   {
     "colors" : [
-      "Silver",
-      "Pink",
       "Blue",
       "Green",
-      "Purple",
       "Orange",
+      "Pink",
+      "Purple",
+      "Silver",
       "Yellow"
     ],
     "kind" : "iMac",
@@ -105,12 +105,12 @@
   },
   {
     "colors" : [
-      "Silver",
-      "Pink",
       "Blue",
       "Green",
-      "Purple",
       "Orange",
+      "Pink",
+      "Purple",
+      "Silver",
       "Yellow"
     ],
     "kind" : "iMac",
@@ -143,10 +143,10 @@
   },
   {
     "colors" : [
-      "Silver",
-      "Pink",
       "Blue",
-      "Green"
+      "Green",
+      "Pink",
+      "Silver"
     ],
     "kind" : "iMac",
     "models" : [
@@ -168,12 +168,12 @@
   },
   {
     "colors" : [
-      "Silver",
-      "Pink",
       "Blue",
       "Green",
-      "Purple",
       "Orange",
+      "Pink",
+      "Purple",
+      "Silver",
       "Yellow"
     ],
     "kind" : "iMac",
@@ -206,10 +206,10 @@
   },
   {
     "colors" : [
-      "Silver",
-      "Pink",
       "Blue",
-      "Green"
+      "Green",
+      "Pink",
+      "Silver"
     ],
     "kind" : "iMac",
     "models" : [
@@ -231,12 +231,12 @@
   },
   {
     "colors" : [
-      "Silver",
-      "Pink",
       "Blue",
       "Green",
-      "Purple",
       "Orange",
+      "Pink",
+      "Purple",
+      "Silver",
       "Yellow"
     ],
     "kind" : "iMac",
@@ -267,10 +267,10 @@
   },
   {
     "colors" : [
-      "Silver",
-      "Pink",
       "Blue",
-      "Green"
+      "Green",
+      "Pink",
+      "Silver"
     ],
     "kind" : "iMac",
     "models" : [
@@ -340,9 +340,9 @@
 
     ],
     "parts" : [
+      "MHK23xx/A",
       "MRT3xx/A",
-      "MRT4xx/A",
-      "MHK23xx/A"
+      "MRT4xx/A"
     ],
     "variant" : "Retina 4K, 21.5-inch, 2019"
   },
@@ -359,8 +359,8 @@
 
     ],
     "parts" : [
-      "MQ2Y2xx/A",
-      "MHLV3xx/A"
+      "MHLV3xx/A",
+      "MQ2Y2xx/A"
     ],
     "variant" : ""
   },
@@ -414,8 +414,8 @@
 
     ],
     "parts" : [
-      "MMQA2xx/A",
-      "MHK03xx/A"
+      "MHK03xx/A",
+      "MMQA2xx/A"
     ],
     "variant" : "21.5-inch, 2017"
   },
@@ -863,10 +863,10 @@
   },
   {
     "colors" : [
-      "Rose Gold",
-      "Space Gray",
       "Gold",
-      "Silver"
+      "Rose Gold",
+      "Silver",
+      "Space Gray"
     ],
     "kind" : "MacBook",
     "models" : [
@@ -890,10 +890,10 @@
   },
   {
     "colors" : [
-      "Rose Gold",
-      "Space Gray",
       "Gold",
-      "Silver"
+      "Rose Gold",
+      "Silver",
+      "Space Gray"
     ],
     "kind" : "MacBook",
     "models" : [
@@ -917,9 +917,9 @@
   },
   {
     "colors" : [
-      "Space Gray",
       "Gold",
-      "Silver"
+      "Silver",
+      "Space Gray"
     ],
     "kind" : "MacBook",
     "models" : [
@@ -1010,10 +1010,10 @@
   },
   {
     "colors" : [
+      "Midnight",
       "Silver",
-      "Starlight",
       "Sky Blue",
-      "Midnight"
+      "Starlight"
     ],
     "kind" : "MacBook Air",
     "models" : [
@@ -1042,10 +1042,10 @@
   },
   {
     "colors" : [
+      "Midnight",
       "Silver",
-      "Starlight",
       "Sky Blue",
-      "Midnight"
+      "Starlight"
     ],
     "kind" : "MacBook Air",
     "models" : [
@@ -1058,7 +1058,6 @@
     ],
     "parts" : [
       "MDH74xx/A",
-      "MDH84xx/A",
       "MDH84xx/A",
       "MDHA4xx/A",
       "MDHC4xx/A",
@@ -1074,10 +1073,10 @@
   },
   {
     "colors" : [
+      "Midnight",
       "Silver",
-      "Starlight",
       "Sky Blue",
-      "Midnight"
+      "Starlight"
     ],
     "kind" : "MacBook Air",
     "models" : [
@@ -1109,10 +1108,10 @@
   },
   {
     "colors" : [
+      "Midnight",
       "Silver",
-      "Starlight",
       "Sky Blue",
-      "Midnight"
+      "Starlight"
     ],
     "kind" : "MacBook Air",
     "models" : [
@@ -1144,10 +1143,10 @@
   },
   {
     "colors" : [
+      "Midnight",
       "Silver",
-      "Starlight",
       "Space Gray",
-      "Midnight"
+      "Starlight"
     ],
     "kind" : "MacBook Air",
     "models" : [
@@ -1160,12 +1159,12 @@
     ],
     "parts" : [
       "MRYM3xx/A",
-      "MRYP3xx/A",
-      "MRYR3xx/A",
-      "MRYU3xx/A",
       "MRYN3xx/A",
+      "MRYP3xx/A",
       "MRYQ3xx/A",
+      "MRYR3xx/A",
       "MRYT3xx/A",
+      "MRYU3xx/A",
       "MRYV3xx/A",
       "MXD13xx/A",
       "MXD23xx/A",
@@ -1176,10 +1175,10 @@
   },
   {
     "colors" : [
+      "Midnight",
       "Silver",
-      "Starlight",
       "Space Gray",
-      "Midnight"
+      "Starlight"
     ],
     "kind" : "MacBook Air",
     "models" : [
@@ -1192,12 +1191,12 @@
     ],
     "parts" : [
       "MRXN3xx/A",
-      "MRXQ3xx/A",
-      "MRXT3xx/A",
-      "MRXV3xx/A",
       "MRXP3xx/A",
+      "MRXQ3xx/A",
       "MRXR3xx/A",
+      "MRXT3xx/A",
       "MRXU3xx/A",
+      "MRXV3xx/A",
       "MRXW3xx/A",
       "MXCR3xx/A",
       "MXCT3xx/A",
@@ -1208,10 +1207,10 @@
   },
   {
     "colors" : [
+      "Midnight",
       "Silver",
-      "Starlight",
       "Space Gray",
-      "Midnight"
+      "Starlight"
     ],
     "kind" : "MacBook Air",
     "models" : [
@@ -1236,10 +1235,10 @@
   },
   {
     "colors" : [
+      "Midnight",
       "Silver",
-      "Starlight",
       "Space Gray",
-      "Midnight"
+      "Starlight"
     ],
     "kind" : "MacBook Air",
     "models" : [
@@ -1263,9 +1262,9 @@
   },
   {
     "colors" : [
-      "Space Gray",
       "Gold",
-      "Silver"
+      "Silver",
+      "Space Gray"
     ],
     "kind" : "MacBook Air",
     "models" : [
@@ -1277,19 +1276,19 @@
     ],
     "parts" : [
       "MGN63xx/A",
-      "MGN93xx/A",
-      "MGND3xx/A",
       "MGN73xx/A",
+      "MGN93xx/A",
       "MGNA3xx/A",
+      "MGND3xx/A",
       "MGNE3xx/A"
     ],
     "variant" : "M1, 2020"
   },
   {
     "colors" : [
-      "Space Gray",
       "Gold",
-      "Silver"
+      "Silver",
+      "Space Gray"
     ],
     "kind" : "MacBook Air",
     "models" : [
@@ -1311,9 +1310,9 @@
   },
   {
     "colors" : [
-      "Space Gray",
       "Gold",
-      "Silver"
+      "Silver",
+      "Space Gray"
     ],
     "kind" : "MacBook Air",
     "models" : [
@@ -1337,9 +1336,9 @@
   },
   {
     "colors" : [
-      "Space Gray",
       "Gold",
-      "Silver"
+      "Silver",
+      "Space Gray"
     ],
     "kind" : "MacBook Air",
     "models" : [
@@ -1351,10 +1350,10 @@
     ],
     "parts" : [
       "MRE82xx/A",
-      "MREA2xx/A",
-      "MREE2xx/A",
       "MRE92xx/A",
+      "MREA2xx/A",
       "MREC2xx/A",
+      "MREE2xx/A",
       "MREF2xx/A",
       "MUQT2xx/A",
       "MUQU2xx/A",
@@ -1616,9 +1615,9 @@
     "name" : "MacBook Air (Mid 2009)",
     "newestOS" : "OS X El Capitan 10.11.6",
     "parts" : [
-      "MC505xx/A",
       "MC233xx/A",
-      "MC234xx/A"
+      "MC234xx/A",
+      "MC505xx/A"
     ],
     "variant" : "Mid 2009"
   },
@@ -1740,13 +1739,13 @@
       "This model has the M4 Pro or M4 Max chip and includes three Thunderbolt 4 ports."
     ],
     "parts" : [
-      "MXE63xx/A",
       "MX2E3xx/A",
       "MX2F3xx/A",
       "MX2G3xx/A",
       "MX2H3xx/A",
       "MX2J3xx/A",
-      "MX2K3xx/A"
+      "MX2K3xx/A",
+      "MXE63xx/A"
     ],
     "variant" : "14-inch, 2024"
   },
@@ -1757,8 +1756,8 @@
     ],
     "kind" : "MacBook Pro",
     "models" : [
-      "Mac16,7",
-      "Mac16,5"
+      "Mac16,5",
+      "Mac16,7"
     ],
     "name" : "MacBook Pro (16-inch, 2024)",
     "newestOS" : "macOS Sequoia",
@@ -1810,9 +1809,9 @@
     ],
     "kind" : "MacBook Pro",
     "models" : [
+      "Mac15,10",
       "Mac15,6",
-      "Mac15,8",
-      "Mac15,10"
+      "Mac15,8"
     ],
     "name" : "MacBook Pro (14-inch, Nov 2023)",
     "newestOS" : "macOS Sequoia",
@@ -1842,9 +1841,9 @@
     ],
     "kind" : "MacBook Pro",
     "models" : [
+      "Mac15,11",
       "Mac15,7",
-      "Mac15,9",
-      "Mac15,11"
+      "Mac15,9"
     ],
     "name" : "MacBook Pro (16-inch, Nov 2023)",
     "newestOS" : "macOS Sequoia",
@@ -1901,8 +1900,8 @@
     ],
     "kind" : "MacBook Pro",
     "models" : [
-      "Mac14,6",
-      "Mac14,10"
+      "Mac14,10",
+      "Mac14,6"
     ],
     "name" : "MacBook Pro (16-inch, 2023)",
     "newestOS" : "macOS Ventura",
@@ -1910,14 +1909,14 @@
 
     ],
     "parts" : [
-      "MNWG3xx/A",
+      "MNW83xx/A",
       "MNW93xx/A",
-      "MNWK3xx/A",
+      "MNWC3xx/A",
       "MNWD3xx/A",
       "MNWF3xx/A",
-      "MNW83xx/A",
+      "MNWG3xx/A",
       "MNWJ3xx/A",
-      "MNWC3xx/A"
+      "MNWK3xx/A"
     ],
     "variant" : "16-inch, 2023"
   },
@@ -2375,8 +2374,8 @@
 
     ],
     "parts" : [
-      "MGXC2xx/A",
-      "MGXA2xx/A"
+      "MGXA2xx/A",
+      "MGXC2xx/A"
     ],
     "variant" : "Retina, 15-inch, Mid 2014"
   },
@@ -2585,8 +2584,8 @@
 
     ],
     "parts" : [
-      "MD322xx/A",
-      "MD318xx/A"
+      "MD318xx/A",
+      "MD322xx/A"
     ],
     "variant" : "15-inch, Late 2011"
   },
@@ -2604,8 +2603,8 @@
 
     ],
     "parts" : [
-      "MD314xx/A",
-      "MD313xx/A"
+      "MD313xx/A",
+      "MD314xx/A"
     ],
     "variant" : "13-inch, Late 2011"
   },
@@ -2641,8 +2640,8 @@
 
     ],
     "parts" : [
-      "MC723xx/A",
-      "MC721xx/A"
+      "MC721xx/A",
+      "MC723xx/A"
     ],
     "variant" : "15-inch, Early 2011"
   },
@@ -2660,8 +2659,8 @@
 
     ],
     "parts" : [
-      "MC724xx/A",
-      "MC700xx/A"
+      "MC700xx/A",
+      "MC724xx/A"
     ],
     "variant" : "13-inch, Early 2011"
   },
@@ -2697,9 +2696,9 @@
 
     ],
     "parts" : [
-      "MC373xx/A",
+      "MC371xx/A",
       "MC372xx/A",
-      "MC371xx/A"
+      "MC373xx/A"
     ],
     "variant" : "15-inch, Mid 2010"
   },
@@ -2717,8 +2716,8 @@
 
     ],
     "parts" : [
-      "MC375xx/A",
-      "MC374xx/A"
+      "MC374xx/A",
+      "MC375xx/A"
     ],
     "variant" : "13-inch, Mid 2010"
   },
@@ -2791,8 +2790,8 @@
 
     ],
     "parts" : [
-      "MB991xx/A",
-      "MB990xx/A"
+      "MB990xx/A",
+      "MB991xx/A"
     ],
     "variant" : "13-inch, Mid 2009"
   },
@@ -2873,8 +2872,8 @@
     ],
     "kind" : "Mac mini",
     "models" : [
-      "Mac16,11",
-      "Mac16,10"
+      "Mac16,10",
+      "Mac16,11"
     ],
     "name" : "Mac mini (2024)",
     "newestOS" : "macOS Sequoia",
@@ -3038,8 +3037,8 @@
 
     ],
     "parts" : [
-      "MC438xx/A",
-      "MC270xx/A"
+      "MC270xx/A",
+      "MC438xx/A"
     ],
     "variant" : "Mid 2010"
   },
@@ -3074,8 +3073,8 @@
     "name" : "Mac mini (Early 2009)",
     "newestOS" : "OS X El Capitan 10.11.6",
     "parts" : [
-      "MB464xx/A",
-      "MB463xx/A"
+      "MB463xx/A",
+      "MB464xx/A"
     ],
     "variant" : "Early 2009"
   },
@@ -3162,8 +3161,8 @@
 
     ],
     "parts" : [
-      "ME253xx/A",
-      "MD878xx/A"
+      "MD878xx/A",
+      "ME253xx/A"
     ],
     "variant" : "Late 2013"
   },
@@ -3253,8 +3252,8 @@
     "name" : "Mac Pro (Early 2009)",
     "newestOS" : "OS X El Capitan 10.11.6",
     "parts" : [
-      "MB871xx/A",
-      "MB535xx/A"
+      "MB535xx/A",
+      "MB871xx/A"
     ],
     "variant" : "Early 2009"
   }
