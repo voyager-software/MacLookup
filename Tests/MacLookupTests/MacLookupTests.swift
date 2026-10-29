@@ -19,7 +19,7 @@ final class MacLookupTests: XCTestCase {
 
     func testFindAll() {
         let macs = MacLookup.shared.findAll()
-        XCTAssertEqual(macs.count, 151)
+        XCTAssertEqual(macs.count, 153)
     }
 
     func testCounts() {
@@ -43,7 +43,7 @@ final class MacLookupTests: XCTestCase {
         XCTAssertEqual(macbooks.count, 7)
         XCTAssertEqual(macbookairs.count, 26)
         XCTAssertEqual(macbookpros.count, 58)
-        XCTAssertEqual(macminis.count, 11)
+        XCTAssertEqual(macminis.count, 13)
         XCTAssertEqual(macpros.count, 8)
         XCTAssertEqual(servers.count, 2)
         XCTAssertEqual(studios.count, 6)

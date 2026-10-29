@@ -14,7 +14,7 @@
       "Mac16,3"
     ],
     "name" : "iMac (24-inch, 2024, Four ports)",
-    "newestOS" : "macOS Sequoia",
+    "newestOS" : "macOS 27 Golden Gate",
     "notes" : [
       "Front and back of iMac (24-inch, 2024, Four Ports)",
       "Ports: Four Thunderbolt / USB 4 ports"
@@ -81,7 +81,7 @@
       "Mac16,2"
     ],
     "name" : "iMac (24-inch, 2024, Two ports)",
-    "newestOS" : "macOS Sequoia",
+    "newestOS" : "macOS 27 Golden Gate",
     "notes" : [
       "Front and back of iMac (24-inch, 2024, Two Ports)",
       "Ports: Two Thunderbolt / USB 4 ports"
@@ -118,7 +118,7 @@
       "Mac15,5"
     ],
     "name" : "iMac (24-inch, 2023, Four ports)",
-    "newestOS" : "macOS Sequoia",
+    "newestOS" : "macOS 27 Golden Gate",
     "notes" : [
       "Front and back of iMac (24-inch, 2023) with two Thunderbolt / USB 4 ports and two USB 3 ports.",
       "Ports: Two Thunderbolt / USB 4 ports, Two USB 3 ports"
@@ -153,7 +153,7 @@
       "Mac15,4"
     ],
     "name" : "iMac (24-inch, 2023, Two ports)",
-    "newestOS" : "macOS Sequoia",
+    "newestOS" : "macOS 27 Golden Gate",
     "notes" : [
       "Front and back of iMac (24-inch, 2023) with two Thunderbolt / USB 4 ports.",
       "Ports: Two Thunderbolt / USB 4 ports"
@@ -181,7 +181,7 @@
       "iMac21,1"
     ],
     "name" : "iMac (24-inch, M1, 2021)",
-    "newestOS" : "macOS Sequoia",
+    "newestOS" : "macOS 27 Golden Gate",
     "notes" : [
       "Front and back of iMac (24-inch, M1, 2021) with two Thunderbolt / USB 4 ports and two USB 3 ports.",
       "Ports: Two Thunderbolt / USB 4 ports, Two USB 3 ports"
@@ -216,7 +216,7 @@
       "iMac21,2"
     ],
     "name" : "iMac (24-inch, M1, 2021)",
-    "newestOS" : "macOS Sequoia",
+    "newestOS" : "macOS 27 Golden Gate",
     "notes" : [
       "Front and back of iMac (24-inch, M1, 2021) with two Thunderbolt / USB 4 ports.",
       "Ports: Two Thunderbolt / USB 4 ports"
@@ -244,6 +244,7 @@
       "iMac21,1"
     ],
     "name" : "iMac (24-inch, M1, 2021)",
+    "newestOS" : "macOS 27 Golden Gate",
     "notes" : [
       "Ports: Two Thunderbolt / USB 4 ports, Two USB 3 ports"
     ],
@@ -277,6 +278,7 @@
       "iMac21,2"
     ],
     "name" : "iMac (24-inch, M1, 2021)",
+    "newestOS" : "macOS 27 Golden Gate",
     "notes" : [
       "Ports: Two Thunderbolt / USB 4 ports"
     ],
@@ -750,7 +752,7 @@
       "Mac16,9"
     ],
     "name" : "Mac Studio (2025)",
-    "newestOS" : "macOS Sequoia",
+    "newestOS" : "macOS 27 Golden Gate",
     "notes" : [
       "Front and back of Mac Studio (2025).",
       "Chip: M4 Max",
@@ -770,7 +772,7 @@
       "Mac15,14"
     ],
     "name" : "Mac Studio (2025)",
-    "newestOS" : "macOS Sequoia",
+    "newestOS" : "macOS 27 Golden Gate",
     "notes" : [
       "Front and back of Mac Studio (2025).",
       "Chip: M3 Ultra",
@@ -790,7 +792,7 @@
       "Mac14,13"
     ],
     "name" : "Mac Studio (2023)",
-    "newestOS" : "macOS Sequoia",
+    "newestOS" : "macOS 27 Golden Gate",
     "notes" : [
       "Front and back of Mac Studio (2023).",
       "Chip: M2 Max",
@@ -810,7 +812,7 @@
       "Mac14,14"
     ],
     "name" : "Mac Studio (2023)",
-    "newestOS" : "macOS Sequoia",
+    "newestOS" : "macOS 27 Golden Gate",
     "notes" : [
       "Front and back of Mac Studio (2023).",
       "Chip: M2 Ultra",
@@ -830,7 +832,7 @@
       "Mac13,1"
     ],
     "name" : "Mac Studio (2022)",
-    "newestOS" : "macOS Sequoia",
+    "newestOS" : "macOS 27 Golden Gate",
     "notes" : [
       "Front and back of Mac Studio (2022).",
       "Chip: M1 Max",
@@ -850,7 +852,7 @@
       "Mac13,2"
     ],
     "name" : "Mac Studio (2022)",
-    "newestOS" : "macOS Sequoia",
+    "newestOS" : "macOS 27 Golden Gate",
     "notes" : [
       "Front and back of Mac Studio (2022).",
       "Chip: M1 Ultra",
@@ -1020,7 +1022,7 @@
       "Mac17,4"
     ],
     "name" : "MacBook Air (15-inch, M5, 2026)",
-    "newestOS" : "macOS Tahoe 26",
+    "newestOS" : "macOS 27 Golden Gate",
     "notes" : [
 
     ],
@@ -1052,7 +1054,7 @@
       "Mac17,3"
     ],
     "name" : "MacBook Air (13-inch, M5, 2026)",
-    "newestOS" : "macOS Tahoe 26",
+    "newestOS" : "macOS 27 Golden Gate",
     "notes" : [
 
     ],
@@ -1083,7 +1085,7 @@
       "Mac16,13"
     ],
     "name" : "MacBook Air (15-inch, M4, 2025)",
-    "newestOS" : "macOS Sequoia",
+    "newestOS" : "macOS 27 Golden Gate",
     "notes" : [
       "Front of MacBook Air (15-inch, M4, 2025)."
     ],
@@ -1118,7 +1120,7 @@
       "Mac16,12"
     ],
     "name" : "MacBook Air (13-inch, M4, 2025)",
-    "newestOS" : "macOS Sequoia",
+    "newestOS" : "macOS 27 Golden Gate",
     "notes" : [
       "Front of MacBook Air (13-inch, M4, 2025)."
     ],
@@ -1153,7 +1155,7 @@
       "Mac15,13"
     ],
     "name" : "MacBook Air (15-inch, M3, 2024)",
-    "newestOS" : "macOS Sequoia",
+    "newestOS" : "macOS 27 Golden Gate",
     "notes" : [
       "Front of MacBook Air (15-inch, M3, 2024)."
     ],
@@ -1185,7 +1187,7 @@
       "Mac15,12"
     ],
     "name" : "MacBook Air (13-inch, M3, 2024)",
-    "newestOS" : "macOS Sequoia",
+    "newestOS" : "macOS 27 Golden Gate",
     "notes" : [
       "Front of MacBook Air (13-inch, M3, 2024)."
     ],
@@ -1217,7 +1219,7 @@
       "Mac14,15"
     ],
     "name" : "MacBook Air (15-inch, M2, 2023)",
-    "newestOS" : "macOS Sequoia",
+    "newestOS" : "macOS 27 Golden Gate",
     "notes" : [
       "Front of MacBook Air (15-inch, M2, 2023)."
     ],
@@ -1245,6 +1247,7 @@
       "Mac14,2"
     ],
     "name" : "MacBook Air (M2, 2022)",
+    "newestOS" : "macOS 27 Golden Gate",
     "notes" : [
 
     ],
@@ -1271,6 +1274,7 @@
       "MacBookAir10,1"
     ],
     "name" : "MacBook Air (M1, 2020)",
+    "newestOS" : "macOS 27 Golden Gate",
     "notes" : [
 
     ],
@@ -1632,7 +1636,7 @@
       "Mac17,9"
     ],
     "name" : "MacBook Pro (14-inch, M5 Pro or M5 Max, 2026)",
-    "newestOS" : "macOS Tahoe 26",
+    "newestOS" : "macOS 27 Golden Gate",
     "notes" : [
       "This model has the M5 Pro or M5 Max chip and includes three Thunderbolt 5 ports."
     ],
@@ -1657,7 +1661,7 @@
       "Mac17,8"
     ],
     "name" : "MacBook Pro (16-inch, M5 Pro or M5 Max, 2026)",
-    "newestOS" : "macOS Tahoe 26",
+    "newestOS" : "macOS 27 Golden Gate",
     "notes" : [
       "This model has the M5 Pro or M5 Max chip and includes three Thunderbolt 5 ports."
     ],
@@ -1683,7 +1687,7 @@
       "Mac17,2"
     ],
     "name" : "MacBook Pro (14-inch, M5, 2025)",
-    "newestOS" : "macOS Tahoe 26",
+    "newestOS" : "macOS 27 Golden Gate",
     "notes" : [
 
     ],
@@ -1707,7 +1711,7 @@
       "Mac16,1"
     ],
     "name" : "MacBook Pro (14-inch, 2024)",
-    "newestOS" : "macOS Sequoia",
+    "newestOS" : "macOS 27 Golden Gate",
     "notes" : [
       "This model has the M4 chip and includes three Thunderbolt 4 ports."
     ],
@@ -1734,7 +1738,7 @@
       "Mac16,8"
     ],
     "name" : "MacBook Pro (14-inch, 2024)",
-    "newestOS" : "macOS Sequoia",
+    "newestOS" : "macOS 27 Golden Gate",
     "notes" : [
       "This model has the M4 Pro or M4 Max chip and includes three Thunderbolt 4 ports."
     ],
@@ -1760,7 +1764,7 @@
       "Mac16,7"
     ],
     "name" : "MacBook Pro (16-inch, 2024)",
-    "newestOS" : "macOS Sequoia",
+    "newestOS" : "macOS 27 Golden Gate",
     "notes" : [
       "This model has the M4 Pro or M4 Max chip and includes three Thunderbolt 4 ports."
     ],
@@ -1786,7 +1790,7 @@
       "Mac15,3"
     ],
     "name" : "MacBook Pro (14-inch, Nov 2023)",
-    "newestOS" : "macOS Sequoia",
+    "newestOS" : "macOS 27 Golden Gate",
     "notes" : [
       "This model has the M3 chip and includes two Thunderbolt / USB 4 ports."
     ],
@@ -1814,7 +1818,7 @@
       "Mac15,8"
     ],
     "name" : "MacBook Pro (14-inch, Nov 2023)",
-    "newestOS" : "macOS Sequoia",
+    "newestOS" : "macOS 27 Golden Gate",
     "notes" : [
       "This model has the M3 Pro or M3 Max chip and includes three Thunderbolt 4 ports."
     ],
@@ -1846,7 +1850,7 @@
       "Mac15,9"
     ],
     "name" : "MacBook Pro (16-inch, Nov 2023)",
-    "newestOS" : "macOS Sequoia",
+    "newestOS" : "macOS 27 Golden Gate",
     "notes" : [
       "This model has the M3 Pro or M3 Max chip and includes three Thunderbolt 4 ports."
     ],
@@ -1879,7 +1883,7 @@
       "Mac14,9"
     ],
     "name" : "MacBook Pro (14-inch, 2023)",
-    "newestOS" : "macOS Ventura",
+    "newestOS" : "macOS 27 Golden Gate",
     "notes" : [
 
     ],
@@ -1904,7 +1908,7 @@
       "Mac14,6"
     ],
     "name" : "MacBook Pro (16-inch, 2023)",
-    "newestOS" : "macOS Ventura",
+    "newestOS" : "macOS 27 Golden Gate",
     "notes" : [
 
     ],
@@ -1930,7 +1934,7 @@
       "Mac14,7"
     ],
     "name" : "MacBook Pro (13-inch, M2, 2022)",
-    "newestOS" : "macOS Ventura",
+    "newestOS" : "macOS 27 Golden Gate",
     "notes" : [
 
     ],
@@ -1953,6 +1957,7 @@
       "MacBookPro18,4"
     ],
     "name" : "MacBook Pro (14-inch, 2021)",
+    "newestOS" : "macOS 27 Golden Gate",
     "notes" : [
 
     ],
@@ -1975,6 +1980,7 @@
       "MacBookPro18,2"
     ],
     "name" : "MacBook Pro (16-inch, 2021)",
+    "newestOS" : "macOS 27 Golden Gate",
     "notes" : [
 
     ],
@@ -1998,6 +2004,7 @@
       "MacBookPro17,1"
     ],
     "name" : "MacBook Pro (13-inch, M1, 2020)",
+    "newestOS" : "macOS 27 Golden Gate",
     "notes" : [
 
     ],
@@ -2872,11 +2879,51 @@
     ],
     "kind" : "Mac mini",
     "models" : [
+      "Mac18,5"
+    ],
+    "name" : "Mac mini (M6, 2026)",
+    "newestOS" : "macOS 27 Golden Gate",
+    "notes" : [
+
+    ],
+    "parts" : [
+      "MHQK4xx/A",
+      "MHQL4xx/A",
+      "MHQM4xx/A",
+      "MHQV4xx/A"
+    ],
+    "variant" : "M6, 2026"
+  },
+  {
+    "colors" : [
+
+    ],
+    "kind" : "Mac mini",
+    "models" : [
+      "Mac17,16"
+    ],
+    "name" : "Mac mini (M5 Pro, 2026)",
+    "newestOS" : "macOS 27 Golden Gate",
+    "notes" : [
+
+    ],
+    "parts" : [
+      "MHQN4xx/A",
+      "MHQU4xx/A"
+    ],
+    "variant" : "M5 Pro, 2026"
+  },
+  {
+    "colors" : [
+
+    ],
+    "kind" : "Mac mini",
+    "models" : [
       "Mac16,10",
       "Mac16,11"
     ],
     "name" : "Mac mini (2024)",
-    "newestOS" : "macOS Sequoia",
+    "newestOS" : "macOS 27 Golden Gate",
     "notes" : [
       "Front and back of Mac mini (2024)."
     ],
@@ -2900,7 +2947,7 @@
       "Mac14,3"
     ],
     "name" : "Mac mini (2023)",
-    "newestOS" : "macOS Ventura",
+    "newestOS" : "macOS 27 Golden Gate",
     "notes" : [
       "This model has the M2 chip and includes two Thunderbolt 4 ports."
     ],
@@ -2919,7 +2966,7 @@
       "Mac14,12"
     ],
     "name" : "Mac mini (2023)",
-    "newestOS" : "macOS Ventura",
+    "newestOS" : "macOS 27 Golden Gate",
     "notes" : [
       "This model has the M2 Pro chip and includes four Thunderbolt 4 ports."
     ],
@@ -2937,6 +2984,7 @@
       "Macmini9,1"
     ],
     "name" : "Mac mini (M1, 2020)",
+    "newestOS" : "macOS 27 Golden Gate",
     "notes" : [
 
     ],
@@ -3087,7 +3135,7 @@
       "Mac14,8"
     ],
     "name" : "Mac Pro (2023)",
-    "newestOS" : "macOS Sequoia",
+    "newestOS" : "macOS 27 Golden Gate",
     "notes" : [
       "id-mac-pro-2019"
     ],
@@ -3105,7 +3153,7 @@
       "Mac14,8"
     ],
     "name" : "Mac Pro (Rack, 2023)",
-    "newestOS" : "macOS Sequoia",
+    "newestOS" : "macOS 27 Golden Gate",
     "notes" : [
       "id-mac-pro-2019-rack"
     ],
