@@ -749,6 +749,44 @@
     ],
     "kind" : "Mac Studio",
     "models" : [
+      "Mac17,14"
+    ],
+    "name" : "Mac Studio (M5 Max, 2026)",
+    "newestOS" : "macOS 27 Golden Gate",
+    "notes" : [
+      "Chip: M5 Max",
+      "Front ports: Two USB-C ports"
+    ],
+    "parts" : [
+      "MHL64xx/A"
+    ],
+    "variant" : "M5 Max, 2026"
+  },
+  {
+    "colors" : [
+
+    ],
+    "kind" : "Mac Studio",
+    "models" : [
+      "Mac17,15"
+    ],
+    "name" : "Mac Studio (M5 Ultra, 2026)",
+    "newestOS" : "macOS 27 Golden Gate",
+    "notes" : [
+      "Chip: M5 Ultra",
+      "Front ports: Two Thunderbolt 5 ports"
+    ],
+    "parts" : [
+      "MHL74xx/A"
+    ],
+    "variant" : "M5 Ultra, 2026"
+  },
+  {
+    "colors" : [
+
+    ],
+    "kind" : "Mac Studio",
+    "models" : [
       "Mac16,9"
     ],
     "name" : "Mac Studio (2025)",
